@@ -1,0 +1,10 @@
+(display 'ExerciseOneOne') (newline)
+(display 10) (newline)
+(display (+ 5 3 )) (newline)
+(display (- 9 1)) (newline)
+(display (/ 6 2)) (newline)
+(display (+ (* 2 4) (- 4 2))) (newline)
+
+(display (define a 3)) (newline)
+(display (define b (+ a 1))) (newline)
+(display ((+ a b (* a b)))) (newline)
