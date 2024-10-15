@@ -1,0 +1,7 @@
+Substitution method is where the params are 'substituted' for the passed variables as and when they are needed.
+
+This is annoying because it took me a while to work out that the + sign is the procedure name.
+
+Option A is recursive, because it is calling the inc function on the result of the + function. Thus the + function must be fully resolved before INC can be resolved. Thus we are creating deferred executions of the INC function that are pending the + function being resolved. The ultimate resolution of which is that a = 0 and the answer is b. When this happens we iterate back through the stack and apply each of the INC calls.
+
+Option B is iterative because we are effectively using a counter. Both inc and dec procedures are resolved before the recursion occurs.
