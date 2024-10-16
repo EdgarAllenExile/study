@@ -1,0 +1,9 @@
+I am going to start writing these out so that they make more sense to me because I am not smart.
+
+We define procedure cube x as x*x*x
+we define proceure p x as (3*x) - (4*cube(x))
+We define sine angle as if the angle is not less than 0.1, then angle, if it is then p(sine (angle / 3.0)).
+
+a. It takes five iterations of angle / 3 to get to 0.05, which returns the angle, being 0.05. Then p would resolve five times. 
+
+b. This is a deferred linear recursive process. Which means that steps are linear and space is probably also linear, but I am still not sure what they actually mean by space. 
