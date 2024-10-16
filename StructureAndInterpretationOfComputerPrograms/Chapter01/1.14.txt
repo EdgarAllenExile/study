@@ -1,0 +1,5 @@
+I have created an exceptionally rough version of this drawing in my notes. Maybe if I am going to do this mor I should bring a better note pad.
+
+I think that the space would grow exponentially as would the number of steps. Steps because each time you add a new type of coin that works you are recalculating each step before it. Additionally I think that space would similarly grow exponentially, but I know this is not right. I am not sure why this is not right, but I have reviewed my notes and confirm this is the case. This troubles me because I do not know how adding more coins used would linearly increase size? 
+
+I think this has to do with the fact that size in this context is only concerned with the vertical height of the tree, not the width. This troubles me and I shall have to review.
