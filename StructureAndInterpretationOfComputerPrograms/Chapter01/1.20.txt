@@ -1,0 +1,9 @@
+This is when we fully expand and then reduce. In this circumstance, we use normal order evaluation for the if statement regardless, then work our way through until b = 0, expanding each time.
+
+40 goes into 200 five times, with six remainder. Then six is not zero, so we do another remainder with 6 going into 40 6 times with 4 remainder. So we go in again with 6 and 4, leaving two, then we call remainder again with 2 and 4. This leaves remainder 0, so we start resolving the numbers on the stack.
+
+To actually answer the question, it would be 4 times.
+
+ACTUALLY THIS IS WRONG BECASUSE I FORGOT HOW THIS WORKS.
+
+Using normal order evaluation, we need to recalculate this each time. So eachtime we need to recalculate remainder exactly 18 times. I will need to check why this is true, but it is kinda boring so will do later.:
