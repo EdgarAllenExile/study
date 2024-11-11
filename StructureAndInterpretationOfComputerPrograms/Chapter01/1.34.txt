@@ -1,0 +1,5 @@
+The first stage of this is defining f as g = 2. Then we call f square, which squares 2 and returns 4.
+
+Then after that we are calling f on a anonfunction which takes 2+1 and timeses it by 2. 
+
+I think that when we call (f f), it will return a compiler error. This is because the first two will resolve, then the second. But there is no way to combine them.
